@@ -1,0 +1,48 @@
+.Home{
+
+
+}
+.h-posts{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+}
+.post:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.img-container{
+    width: 100%;
+
+}
+.h-img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.h-content{
+    width: 70%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.h-p-title{
+    color: black;
+}
+.button{
+    width: 40%;
+    height: 25px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 2px solid teal;
+    cursor: pointer;
+    color: teal;
+}
+.button:hover {
+    background-color: teal;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+.menu{
+    width: 35vh;
+    height: 100%;
+}
+.m-otherpost{
+
+}
+.m-post{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.m-img{
+    width: 100%;
+    height: 40%;
+    object-fit:cover;
+    margin-bottom: 0px;
+}
+.m-p-info{
+    display: flex;
+    flex-direction: column;
+}
+.m-button{
+    border: none;
+    background-color: teal;
+    color: white;
+    width: 40%;
+    height: 30px;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.m-p-h2{
+    font-size: 20px;
+}
+.m-otherpost{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+}

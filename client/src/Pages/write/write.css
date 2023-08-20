@@ -1,0 +1,78 @@
+.WriteNew{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;}
+.w-content{
+    flex:5;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.w-menu{
+    flex: 2;
+}
+.editorContiner{
+    height: 300px;
+    overflow:scroll ;
+        border: 1px solid rgba(211, 211, 211, 0.54);
+
+
+}
+.rq{
+    height: 100%;
+    border: none;
+}
+.w-input{
+    border: 1px solid rgba(211, 211, 211, 0.666);
+}
+.w-item{
+    border: 1px solid rgba(211, 211, 211, 0.52);
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #555;
+}
+.w-cat{
+    font-size: 20px;
+}
+.w-ip-label{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+.w-ip-label:hover {
+    color: teal;
+}
+
+
+.buttons-w{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w-update{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: teal;
+    border: 1px solid teal;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+.w-draft{
+    cursor: pointer;
+    color: teal;
+    background-color: #fff;
+    border: 1px solid teal;
+    padding: 3px 5px;
+    border-radius: 2px;
+
+}
+.w-cato{
+    display: flex;
+    align-items: center;
+}

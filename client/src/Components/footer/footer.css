@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(181, 232, 232);
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.f-span{
+    width: 30vh;
+
+}
